@@ -40,11 +40,11 @@ uint16_t flipHex(uint16_t flipNum) {
         flipHex[3-i] = hex[i];
     }
     
-    printf("fliphex: %s\n", flipHex);
+    //printf("fliphex: %s\n", flipHex);
     
     uint16_t result = (uint16_t)strtol(flipHex, NULL, 16);
     
-    printf("result: %u\n", result);
+    //printf("result: %u\n", result);
     
     return result;
     
